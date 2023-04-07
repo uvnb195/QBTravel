@@ -17,17 +17,29 @@ var swiper = new Swiper(".slide-content", {
       prevEl: ".swiper-button-prev",
     },
 
-    breakpoints:{
+    breakpoints: {
         0: {
             slidesPerView: 1,
         },
         520: {
             slidesPerView: 2,
         },
-        950: {
-            slidesPerView: 3,
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
         },
-    },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+        },
+        950: {
+          slidesPerView: 3,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+        },
+  },
 
   });
 
