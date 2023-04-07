@@ -359,8 +359,9 @@ nav {}
     background-color: #fff;
 }
 
-.news-content>h2 {
-    padding: 0;
+.news-content>h5 {
+    font-family: 'Texturina', sans-serif;
+    padding: 10px 0 0;
     font-size: 16px;
     grid-area: title;
     text-align: left;
@@ -403,4 +404,14 @@ h6.news-title {
     margin: 0;
     padding: 0;
     height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 24px !important;
+    }
+
+    .traffic-col>.traffic-title {
+        font-size: 20px !important;
+    }
 }
