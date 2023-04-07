@@ -113,7 +113,17 @@ nav {
     font-size: 20px;
 }
 
+
+.title>button>a {
+    text-decoration: unset;
+    color: #fff;
+}
+
 .title>button:hover {
+    background-color: #fff;
+}
+
+.title>button:hover>a {
     background-color: #fff;
     color: #000;
 }
