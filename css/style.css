@@ -269,6 +269,8 @@ nav {
 .welcome>img {
     width: 100%;
     border-radius: 50px;
+    padding: 0 10%;
+
 }
 
 /* Festival CSS */
