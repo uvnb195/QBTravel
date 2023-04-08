@@ -388,7 +388,7 @@ nav {
 
 .news-content>h5 {
     font-family: 'Texturina', sans-serif;
-    padding: 10px 0 0;
+    padding: 5px 5px 0 0;
     font-size: 16px;
     grid-area: title;
     text-align: left;
