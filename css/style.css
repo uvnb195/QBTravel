@@ -334,9 +334,8 @@ nav {
 
 /* News CSS */
 .news {
-    margin: 0 150px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
