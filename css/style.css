@@ -342,7 +342,7 @@ nav {
 
 .news-item {
     text-decoration: unset;
-    margin: 20px;
+    margin: 10px 0;
     max-width: 650px;
     min-width: 350px;
 }
@@ -441,5 +441,11 @@ h6.news-title {
 
     .traffic-col>.traffic-title {
         font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .news-item {
+        margin: 10px;
     }
 }
